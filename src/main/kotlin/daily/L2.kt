@@ -1,5 +1,7 @@
 package daily
 
+import util.ListNode
+
 /**
  * Example:
  * var li = ListNode(5)

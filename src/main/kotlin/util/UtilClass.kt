@@ -14,6 +14,14 @@ package util
 class TreeNode(var `val` : Int) {
     var left : TreeNode? = null
     var right: TreeNode? = null
+
+    override fun toString(): String {
+        return "Node:$`val` [ ${left.toString()} ${right.toString()} }"
+    }
+}
+
+class ListNode(var `val`: Int) {
+    var next: ListNode? = null
 }
 
 class Node{

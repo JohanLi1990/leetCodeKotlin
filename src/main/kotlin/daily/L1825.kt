@@ -1,8 +1,6 @@
 package daily
 
-import java.util.LinkedList
-import java.util.TreeMap
-import kotlin.math.max
+import java.util.*
 import kotlin.math.min
 
 class MKAverage(m: Int, k: Int) {

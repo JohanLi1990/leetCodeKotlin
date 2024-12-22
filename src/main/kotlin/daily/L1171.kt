@@ -1,5 +1,7 @@
 package daily
 
+import util.ListNode
+
 class L1171 {
     fun removeZeroSumSublists(head: ListNode?): ListNode? {
         val headpoint = ListNode(-1).apply {
@@ -39,9 +41,6 @@ class L1171 {
     }
 }
 
-class ListNode(var `val`: Int) {
-    var next: ListNode? = null
-}
 
 fun main() {
     val head = ListNode(1)
