@@ -1,6 +1,11 @@
 package daily
 
 class L14 {
+    class Trie {
+        val children = Array<Trie?>(26){null}
+        var num = 0
+    }
+
     fun longestCommonPrefix(strs: Array<String>): String {
         val head = Trie()
         for (s in strs) {
@@ -35,10 +40,6 @@ class L14 {
 
 }
 
-class Trie {
-    val children = Array<Trie?>(26){null}
-    var num = 0
-}
 
 fun main() {
     val input = arrayOf("flower","flow","see")
